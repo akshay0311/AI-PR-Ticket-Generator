@@ -1,0 +1,21 @@
+{
+  "name": "ai-pr-reviewer",
+  "version": "1.0.0",
+  "description": "AI-powered PR reviewer using YouTrack + GitHub webhooks and Claude",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "axios": "^1.7.2",
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "groq-sdk": "^1.2.0",
+    "openai": "^6.37.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
